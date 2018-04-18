@@ -130,7 +130,6 @@ class App extends Component {
         form = this.buildAnt();
         break;
       case "ext":
-        stylePath = "ext-react/ext.css";
         form = this.buildExt();
         break;
       default:
